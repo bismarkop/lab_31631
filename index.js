@@ -82,6 +82,8 @@ topMenuEl.addEventListener("click", (e) => {
     }
 
     // I haven't figured out how to stop ABOUT from triggering the submenu
+    
+    // *** Come back here and figure out how to get the sub menu to work
     if (e.target.classList.contains('active')) {
         buildSubMenu(subMenuEl)
         for (let objs in menuLinks) {
